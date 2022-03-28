@@ -137,7 +137,7 @@
                         android:textSize="12dp" />
 
                     <TextView
-                        android:id="@+id/sunrise"
+                        android:id="@+id/wind_data"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="10 km/h"
@@ -171,12 +171,11 @@
                         android:layout_height="wrap_content"
                         android:text="Humidity"
                         android:textSize="12dp" />
-
                     <TextView
-                        android:id="@+id/sunset"
+                        android:id="@+id/humidity_data"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="44 %"
+                        android:text="20 %"
                         android:textSize="14dp" />
                 </LinearLayout>
 
@@ -215,7 +214,7 @@
                         android:textSize="12dp" />
 
                     <TextView
-                        android:id="@+id/sunrise"
+                        android:id="@+id/pressure"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="20 %"
@@ -250,7 +249,7 @@
                         android:textSize="12dp" />
 
                     <TextView
-                        android:id="@+id/sunset"
+                        android:id="@+id/visibility_data"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="44 %"
