@@ -1,5 +1,6 @@
 package com.example.weatherapp.network
 
+import com.example.weatherapp.network.data.Main
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit
@@ -33,11 +34,11 @@ private val retrofit = Retrofit.Builder()
 interface WeatherApiService {
     /**
      * Returns a [List] of [WeatherData] and this method can be called from a Coroutine.
-     * The @GET annotation indicates that the "photos" endpoint will be requested with the GET
+     * The @GET annotation indicates that the "weather" endpoint will be requested with the GET
      * HTTP method
      */
     @GET("weather")
-    suspend fun getData(): List<WeatherData>
+    suspend fun getData(): List<Main>
 }
 
 /**
