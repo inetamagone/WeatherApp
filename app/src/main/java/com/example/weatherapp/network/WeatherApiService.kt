@@ -33,7 +33,7 @@ private val retrofit = Retrofit.Builder()
  */
 interface WeatherApiService {
     /**
-     * Returns a [List] of [WeatherData] and this method can be called from a Coroutine.
+     * Returns a [List] of [Main] and this method can be called from a Coroutine.
      * The @GET annotation indicates that the "weather" endpoint will be requested with the GET
      * HTTP method
      */
